@@ -1,0 +1,28 @@
+.rodape {
+  background: url("../img/img-container-2/background\ \(1\).png");
+  display: flex;
+  align-items: center;
+}
+
+.hrr {
+  border: 1px solid #3a5880;
+}
+
+.rodape_paragrapher {
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Exo 2";
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 60%;
+}
+
+.rodape_paragrapher span {
+  font-weight: bold;
+}
+
+.rodape_img {
+  margin: 10px 10px 10px 10px;
+}

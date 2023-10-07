@@ -27,7 +27,7 @@
 .lstrix {
   margin-top: 0.5em;
   content: "";
-  border: 1px solid #3a5880;
+  border: 1px thin solid #3a5880;
   width: 80vh;
   height: 0;
 }
