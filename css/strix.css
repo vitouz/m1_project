@@ -1,0 +1,95 @@
+.strix_container {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/img-container-2/background\ \(1\).png");
+}
+
+.strix_title {
+  display: flex;
+  gap: 0.2em;
+  /* margin-left: 10em; */
+  padding-top: 20px;
+  font-size: 40px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 300;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+}
+
+.strix_title span {
+  font-weight: 800;
+  color: #3a5880;
+}
+
+.lstrix {
+  margin-top: 0.5em;
+  content: "";
+  border: 1px solid #3a5880;
+  width: 80vh;
+  height: 0;
+}
+
+.strix_introduct {
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 5em 5em 0 10em;
+}
+
+.strix_paragrapher {
+  color: white;
+  text-align: center;
+  align-items: center;
+
+  font-size: 18px;
+  line-height: 23px;
+  color: #e3e3e3;
+  font-weight: 300;
+}
+
+.strix_div {
+  display: flex;
+  margin-top: 50px;
+}
+
+.strix_img {
+  margin-right: 15em;
+  padding-bottom: 10em;
+  width: 500px;
+  height: 600px;
+}
+
+.strix_secondParagrapher {
+  color: white;
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 300;
+  margin-left: 10em;
+  padding: 30px 400px 0 40px;
+}
+
+.strix_button {
+  width: 314px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #031127;
+  border: 1px solid #9da0a5;
+  font-size: 18px;
+  line-height: 49px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Exo 2";
+  position: absolute;
+  margin: 330px;
+  cursor: pointer;
+}
+
+.strix_button:hover {
+  background-color: white;
+  color: #031127;
+  transition: 0.3s ease;
+}

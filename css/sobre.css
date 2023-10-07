@@ -28,6 +28,7 @@
   content: "";
   border: 1px solid #3a5880;
   width: 50vh;
+  height: 0;
 }
 
 .sobre_paragrapher {
@@ -93,7 +94,7 @@
 }
 
 .missao_paragrapher {
-  display: flex;
+  display: none;
   align-items: center;
   text-align: flex-end;
   margin: 0 320px;
@@ -127,7 +128,7 @@
 }
 
 .visao_paragrapher {
-  display: flex;
+  display: none;
   align-items: center;
   text-align: flex-end;
   margin: 0 320px;
