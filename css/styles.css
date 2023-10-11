@@ -11,6 +11,10 @@
   font-family: "Exo 2";
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   height: 100vh;
   background: url("../img/img-container-1/newImg.PNG");

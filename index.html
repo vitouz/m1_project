@@ -23,16 +23,17 @@
 
     <!-- JavaScript -->
     <script defer src="./js/scripts.js"></script>
+    <script defer src="./js/enviarFormulario.js"></script>
     <!-- JavaScript -->
   </head>
   <body>
     <header class="container">
       <ul class="menu">
         <li><a href="#">HOME</a></li>
-        <li><a href="#">Áreas de atuação</a></li>
-        <li><a href="#">Sobre a empresa </a></li>
-        <li><a href="#">m1 STRIX</a></li>
-        <li><a href="">Fale Conosco</a></li>
+        <li><a href="#areas_de_atuacao">Áreas de atuação</a></li>
+        <li><a href="#sobre_a_empresa">Sobre a empresa </a></li>
+        <li><a href="#m1_strix">m1 STRIX</a></li>
+        <li><a href="#fale_conosco">Fale Conosco</a></li>
       </ul>
       <!-- <hr /> -->
       <div class="logo">
@@ -57,7 +58,7 @@
     </header>
     <hr class="hrr" />
 
-    <section class="solucoes_container">
+    <section id="areas_de_atuacao" class="solucoes_container">
       <img src="./img/img-container-2/bq.png" alt="" />
 
       <h2 class="solucoes_title">
@@ -114,7 +115,7 @@
     </section>
     <hr class="hrr" />
 
-    <section class="sobre_container">
+    <section id="sobre_a_empresa" class="sobre_container">
       <h2 class="sobre_title">
         Sobre a <span>Empresa</span>
         <div class="line"></div>
@@ -176,7 +177,7 @@
       <hr class="hr" />
     </section>
 
-    <section class="strix_container">
+    <section id="m1_strix" class="strix_container">
       <h2 class="strix_title">
         <div class="line lstrix"></div>
         m1<span>strix</span>
@@ -201,7 +202,7 @@
       </div>
     </section>
     <hr class="hrr" />
-    <section class="faleConosco_container">
+    <section id="fale_conosco" class="faleConosco_container">
       <h2 class="faleConosco_title">
         Fale<span>Conosco</span>
         <div class="line lstrix"></div>
@@ -214,9 +215,22 @@
 
       <div class="formulario">
         <form class="form_box" action="" method="post">
-          <input type="text" name="name" placeholder="Nome:" required />
-          <input type="email" name="email" placeholder="Email:" required />
           <input
+            id="formName"
+            type="text"
+            name="name"
+            placeholder="Nome:"
+            required
+          />
+          <input
+            id="formEmail"
+            type="email"
+            name="email"
+            placeholder="Email:"
+            required
+          />
+          <input
+            id="formCellphone"
             type="tel"
             name="cellphone"
             id=""
